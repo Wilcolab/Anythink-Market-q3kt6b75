@@ -10,4 +10,13 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. Clone the repository to your machine.
+
+2. Create a codespace for the repository
+
+3. Enter `docker-compose up` to load the backend and frontend.
+
+4. Test the server by going to codespaceurl+'/api/ping'
+
+5. Check if the frontend is connected to the backend by creating a user in codespaceurl+'/register'
+
